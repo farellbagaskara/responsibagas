@@ -1,0 +1,8 @@
+Produk: Sasuke
+Jumlah: 1
+Total Harga: Rp 65000
+
+Produk: Naruto
+Jumlah: 1
+Total Harga: Rp 65000
+

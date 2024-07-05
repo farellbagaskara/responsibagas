@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>"Shinobi Arena: Ultimate Jutsu Showdown!"</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="js/script.js"></script>
+  </head>
+<body>
+  
+  <!-- header -->
+  <header>
+    <div class="container">
+    <h1><a href="index.html">"Shinobi Arena!"</a></h1>
+    <ul class="navbar-nav active">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#product">Daftar Ninja</a></li>
+      <li><a href="#buy">Buy</a></li>
+    </ul>
+  </div>
+  </header>
+  <br><br><br><br>
+
+  <!-- banner -->
+  <section class="banner" id="home">
+    <h2>WELCOME TO MY MARKET</h2>
+  </section>
+
+   <!-- about -->
+  <section class="about" id="about">
+    <div class="container">
+      <br>
+      <h3>ABOUT</h3>
+      <p>Selamat datang di halaman pengembangan website Shinobi Arena! UADOYO, perusahaan pengembang game ternama, dengan bangga mempersembahkan game anime terbaru mereka, "Shinobi Arena: Ultimate Jutsu Showdown!". Game ini menghadirkan pertarungan ninja epik dengan jurus pamungkas dari berbagai desa tersembunyi. </p>
+    </div>
+  </section>
+
+  <!-- product -->
+  <section class="product" id="product">
+   <div class="container">
+    <h3>PRODUCT</h3>
+    <div class="box">
+        <div class="col-1">
+          <div class="icon"><img src="img/sakura.webp"> </div>
+          <h5>Sakura</h5>
+          <p>Rp. 65.000</p>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/boruto.webp"> </div>
+          <h5>Boruto</h5>
+          <p>Rp.35.000</p>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/sarada.webp"> </div>
+          <h5>Sarada</h5>
+          <p>Rp. 49.000</p>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/gaara.webp"> </div>
+          <h5>Gaara</h5>
+          <p>Rp. 95.000</p>
+        </div>        
+    </div>
+    <div class="box">
+        <div class="col-1">
+          <div class="icon"><img src="img/minato.webp"> </div>
+          <h5>Minato</h5>
+          <p>Rp. 50.000</p>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/madara.webp"> </div>
+          <h5>Madara</h5>
+          <p>Rp. 69.000</p>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/naruto.webp"> </div>
+          <h5>Naruto</h5>
+          <p>Rp. 65.000</p>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/sasuke.webp"> </div>
+          <h5>Sasuke</h5>
+          <p>Rp. 65.000</p>
+        </div>        
+    </div>
+  </div>
+  </section>
+
+  <!-- buy -->
+  <section class="buy" id="buy">
+   <div class="container">
+    <h3>PRODUCT LIST</h3>
+    <div class="box">
+        <div class="col-1">
+          <div class="icon"><img src="img/sakura.webp"> </div>
+          <h5>Sakura</h5>
+          <p>Rp. 65.000</p>
+          <form method="post" action="proses_pembelian.php">
+            <input type="hidden" name="produk" value="Sakura">
+            <input type="hidden" name="harga" value="65000">
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+            <input type="submit" value="Beli">
+          </form>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/boruto.webp"> </div>
+          <h5>Boruto</h5>
+          <p>Rp. 35.000</p>
+          <form method="post" action="proses_pembelian.php">
+            <input type="hidden" name="produk" value="Boruto">
+            <input type="hidden" name="harga" value="35000">
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+            <input type="submit" value="Beli">
+          </form>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/sarada.webp"> </div>
+          <h5>Sarada</h5>
+          <p>Rp. 49.000</p>
+          <form method="post" action="proses_pembelian.php">
+            <input type="hidden" name="produk" value="Sarada">
+            <input type="hidden" name="harga" value="49000">
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+            <input type="submit" value="Beli">
+          </form>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/gaara.webp"> </div>
+          <h5>Gaara</h5>
+          <p>Rp. 95.000</p>
+          <form method="post" action="proses_pembelian.php">
+            <input type="hidden" name="produk" value="Gaara">
+            <input type="hidden" name="harga" value="95000">
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+            <input type="submit" value="Beli">
+          </form>
+        </div>        
+      </div>
+        <div class="box">
+        <div class="col-1">
+          <div class="icon"><img src="img/minato.webp"> </div>
+          <h5>Minato</h5>
+          <p>Rp. 50.000</p>
+          <form method="post" action="proses_pembelian.php">
+            <input type="hidden" name="produk" value="Minato">
+            <input type="hidden" name="harga" value="50000">
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+            <input type="submit" value="Beli">
+          </form>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/madara.webp"> </div>
+          <h5>Madara</h5>
+          <p>Rp. 69.000</p>
+          <form method="post" action="proses_pembelian.php">
+            <input type="hidden" name="produk" value="Madara">
+            <input type="hidden" name="harga" value="69000">
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+            <input type="submit" value="Beli">
+          </form>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/naruto.webp"> </div>
+          <h5>Naruto</h5>
+          <p>Rp. 65.000</p>
+          <form method="post" action="proses_pembelian.php">
+            <!-- Naruto -->
+            <input type="hidden" name="produk" value="Naruto">
+            <input type="hidden" name="harga" value="65000">
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+            <input type="submit" value="Beli">
+          </form>
+        </div>
+        <div class="col-1">
+          <div class="icon"><img src="img/sasuke.webp"> </div>
+          <h5>Sasuke</h5>
+          <p>Rp. 65.000</p>
+          <form method="post" action="proses_pembelian.php">
+            <!-- Sasuke -->
+            <input type="hidden" name="produk" value="Sasuke"> 
+            <input type="hidden" name="harga" value="65000">
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+            <input type="submit" value="Beli">
+          </form>
+        </div>        
+      </div>
+  </div>
+  </section>
+
+
+</body>
+</html>
